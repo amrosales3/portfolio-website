@@ -1,0 +1,9 @@
+---
+title: "Pro Scouting Analysis"
+image: "https://placehold.co/600x400?text=Scouting+Analysis"
+description: Analyzed MLB and college pitchers using Baseball Savant and FanGraphs data.
+categories: [MLB Scouting, Savant, Player Development]
+index: 3
+---
+
+Studied pitch usage, extension, arm slot, and spin rates to better understand elite-level patterns and help guide athlete development in training settings.

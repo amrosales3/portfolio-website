@@ -8,5 +8,23 @@
       "/listings/02-seo-benchmarking-analysis.html",
       "/listings/01-campaign-insights-dashboard.html"
     ]
+  },
+  {
+    "listing": "/sports-analytics.html",
+    "items": [
+      "/listings-sports/pro-scouting-analysis.html",
+      "/listings-sports/motion-capture.html",
+      "/listings-sports/pitch-profiling.html"
+    ]
+  },
+  {
+    "listing": "/digital-marketing.html",
+    "items": [
+      "/listings-digital/05-social-media-engagement.html",
+      "/listings-digital/04-funnel-attribution-model.html",
+      "/listings-digital/03-customer-segmentation-clustering.html",
+      "/listings-digital/02-seo-benchmarking-analysis.html",
+      "/listings-digital/01-campaign-insights-dashboard.html"
+    ]
   }
 ]

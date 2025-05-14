@@ -1,0 +1,9 @@
+---
+title: "Motion Capture Mechanics"
+image: "https://placehold.co/600x400?text=Motion+Capture"
+description: Used Driveline motion capture to evaluate sequencing and joint efficiency in throwers.
+categories: [Motion Capture, Sequencing, Throwing Mechanics]
+index: 2
+---
+
+Captured kinematic data on arm action, hip-shoulder separation, and joint angles. Helped translate this into coaching cues and training progressions.

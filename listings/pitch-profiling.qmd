@@ -1,0 +1,9 @@
+---
+title: "Pitch Movement Profiling"
+image: "https://placehold.co/600x400?text=Pitch+Profiling"
+description: Evaluated pitch spin, movement profiles, and efficiency using Rapsodo and Trackman.
+categories: [Pitch Design, Analytics, Biomechanics]
+index: 1
+---
+
+Used advanced tracking tools to break down vertical approach angle, release height, and spin direction. These insights helped design athlete-specific throwing plans.

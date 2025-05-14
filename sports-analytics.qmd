@@ -1,5 +1,11 @@
 ---
 title: "Sports Analytics"
+listing: 
+  contents: listings-sports
+  type: grid
+  categories: true
+  sort: 
+    - "index desc"
 format: html
 ---
 

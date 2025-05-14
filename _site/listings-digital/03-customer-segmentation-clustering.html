@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Sports Analytics – AARON ROSALES</title>
+<title>Customer Segmentation Using Clustering – AARON ROSALES</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +23,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-985aa47af68dae11cd4d235c71fb941e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7d4c09beb0020ce9f8115fa239481f1b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-985aa47af68dae11cd4d235c71fb941e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-7d4c09beb0020ce9f8115fa239481f1b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,65 +67,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -138,7 +78,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">AARON ROSALES</span>
     </a>
   </div>
@@ -149,19 +89,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./sports-analytics.html" aria-current="page"> 
+    <a class="nav-link" href="../sports-analytics.html"> 
 <span class="menu-text">Sports Analytics</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./digital-marketing.html"> 
+    <a class="nav-link" href="../digital-marketing.html"> 
 <span class="menu-text">Digital Marketing</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resume.html"> 
+    <a class="nav-link" href="../resume.html"> 
 <span class="menu-text">Résumé</span></a>
   </li>  
 </ul>
@@ -175,27 +115,23 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#applying-analytics-to-pitching-athletic-development" id="toc-applying-analytics-to-pitching-athletic-development" class="nav-link active" data-scroll-target="#applying-analytics-to-pitching-athletic-development">Applying Analytics to Pitching &amp; Athletic Development</a>
-  <ul class="collapse">
-  <li><a href="#tools-tech-ive-worked-with" id="toc-tools-tech-ive-worked-with" class="nav-link" data-scroll-target="#tools-tech-ive-worked-with">Tools &amp; Tech I’ve Worked With</a></li>
-  <li><a href="#what-ive-done" id="toc-what-ive-done" class="nav-link" data-scroll-target="#what-ive-done">What I’ve Done</a></li>
-  <li><a href="#why-it-matters" id="toc-why-it-matters" class="nav-link" data-scroll-target="#why-it-matters">Why It Matters</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="QW5hbHl0aWNz">Analytics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QmlvbWVjaGFuaWNz">Biomechanics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TUxCJTIwU2NvdXRpbmc=">MLB Scouting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TW90aW9uJTIwQ2FwdHVyZQ==">Motion Capture <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGl0Y2glMjBEZXNpZ24=">Pitch Design <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGxheWVyJTIwRGV2ZWxvcG1lbnQ=">Player Development <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U2F2YW50">Savant <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U2VxdWVuY2luZw==">Sequencing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGhyb3dpbmclMjBNZWNoYW5pY3M=">Throwing Mechanics <span class="quarto-category-count">(1)</span></div></div></div>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Sports Analytics</h1>
-</div>
+<h1 class="title">Customer Segmentation Using Clustering</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Customer Insights</div>
+    <div class="quarto-category">Segmentation</div>
+    <div class="quarto-category">Machine Learning</div>
+    <div class="quarto-category">Clustering</div>
+    <div class="quarto-category">Marketing Strategy</div>
+  </div>
+  </div>
 
 
 
@@ -211,143 +147,47 @@ window.Quarto = {
 </header>
 
 
-<section id="applying-analytics-to-pitching-athletic-development" class="level1">
-<h1>Applying Analytics to Pitching &amp; Athletic Development</h1>
-<p>My experience with analytics goes beyond traditional marketing — I’ve used data and tech tools to help athletes improve performance, optimize throwing mechanics, and better understand how their bodies move. This work combines biomechanics, pitch analysis, and high-level player development strategies.</p>
-<hr>
-<section id="tools-tech-ive-worked-with" class="level2">
-<h2 class="anchored" data-anchor-id="tools-tech-ive-worked-with">Tools &amp; Tech I’ve Worked With</h2>
+<section id="overview" class="level4">
+<h4 class="anchored" data-anchor-id="overview"><strong>Overview</strong></h4>
+<p>In this analysis, customer data was segmented using clustering algorithms to identify meaningful groups. These segments informed targeting strategies and personalization efforts.</p>
+</section>
+<div class="columns">
+<div class="column" style="width:50%;">
+<section id="learning-outcomes" class="level4">
+<h4 class="anchored" data-anchor-id="learning-outcomes"><strong>Learning Outcomes</strong></h4>
 <ul>
-<li><strong>Rapsodo</strong> &amp; <strong>Trackman</strong>: Used for collecting pitch tracking data, including velocity, spin rate, spin axis, and pitch movement<br>
+<li>Clean and prepare customer-level data.<br>
 </li>
-<li><strong>Driveline Motion Capture</strong>: Applied biomechanics tools to analyze throwing efficiency and joint sequencing<br>
+<li>Apply clustering techniques to group similar customers.<br>
 </li>
-<li><strong>Baseball Savant</strong> &amp; <strong>FanGraphs</strong>: Researched pro and college-level pitchers to break down performance metrics and trends</li>
+<li>Interpret clusters to define marketing personas.<br>
+</li>
+<li>Recommend tailored messaging strategies.<br>
+</li>
+<li>Support targeted campaign development.</li>
 </ul>
-<hr>
 </section>
-<section id="what-ive-done" class="level2">
-<h2 class="anchored" data-anchor-id="what-ive-done">What I’ve Done</h2>
+</div><div class="column" style="width:50%;">
+<section id="key-skills-gained" class="level4">
+<h4 class="anchored" data-anchor-id="key-skills-gained"><strong>Key Skills Gained</strong></h4>
 <ul>
-<li>Analyzed countless pitchers from high school to pro using data from Rapsodo, Trackman, and Savant<br>
+<li>K-means clustering<br>
 </li>
-<li>Studied pitch movement profiles, vertical approach angles, release points, and arm slot data<br>
+<li>Data preprocessing<br>
 </li>
-<li>Helped athletes understand how their body moves and how to better coordinate their mechanics for max velocity and efficiency<br>
+<li>Customer profiling<br>
 </li>
-<li>Designed personalized throwing plans and training cues based on motion capture and pitch feedback<br>
+<li>Market segmentation strategy<br>
 </li>
-<li>Educated athletes on using their data to track progress and stay healthy</li>
+<li>R or Python for machine learning</li>
 </ul>
-<hr>
 </section>
-<section id="why-it-matters" class="level2">
-<h2 class="anchored" data-anchor-id="why-it-matters">Why It Matters</h2>
-<p>Understanding the intersection of analytics and physical performance is what sets modern athletes apart. I use data not just for analysis — but for <strong>action</strong>: helping pitchers improve how they move, throw, recover, and perform.</p>
-<blockquote class="blockquote">
-<p>My background bridges the gap between numbers and movement — blending data-driven insights with real athletic outcomes.</p>
-</blockquote>
+</div>
+</div>
 
 
 
-</section>
-</section>
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="TUxCJTIwU2NvdXRpbmclMkNTYXZhbnQlMkNQbGF5ZXIlMjBEZXZlbG9wbWVudA==" data-listing-file-modified-sort="1747263356893" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
-<a href="./listings-sports/pro-scouting-analysis.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://placehold.co/600x400?text=Scouting+Analysis" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Pro Scouting Analysis
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TUxCJTIwU2NvdXRpbmc='); return false;">MLB Scouting</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U2F2YW50'); return false;">Savant</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UGxheWVyJTIwRGV2ZWxvcG1lbnQ='); return false;">Player Development</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Analyzed MLB and college pitchers using Baseball Savant and FanGraphs data.</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="TW90aW9uJTIwQ2FwdHVyZSUyQ1NlcXVlbmNpbmclMkNUaHJvd2luZyUyME1lY2hhbmljcw==" data-listing-file-modified-sort="1747263404481" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
-<a href="./listings-sports/motion-capture.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://placehold.co/600x400?text=Motion+Capture" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Motion Capture Mechanics
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TW90aW9uJTIwQ2FwdHVyZQ=='); return false;">Motion Capture</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U2VxdWVuY2luZw=='); return false;">Sequencing</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGhyb3dpbmclMjBNZWNoYW5pY3M='); return false;">Throwing Mechanics</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Used Driveline motion capture to evaluate sequencing and joint efficiency in throwers.</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="UGl0Y2glMjBEZXNpZ24lMkNBbmFseXRpY3MlMkNCaW9tZWNoYW5pY3M=" data-listing-file-modified-sort="1747263427949" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
-<a href="./listings-sports/pitch-profiling.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://placehold.co/600x400?text=Pitch+Profiling" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Pitch Movement Profiling
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UGl0Y2glMjBEZXNpZ24='); return false;">Pitch Design</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QW5hbHl0aWNz'); return false;">Analytics</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QmlvbWVjaGFuaWNz'); return false;">Biomechanics</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Evaluated pitch spin, movement profiles, and efficiency using Rapsodo and Trackman.</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
