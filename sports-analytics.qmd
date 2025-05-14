@@ -1,0 +1,34 @@
+---
+title: "Sports Analytics"
+format: html
+---
+
+# Applying Analytics to Pitching & Athletic Development
+
+My experience with analytics goes beyond traditional marketing — I’ve used data and tech tools to help athletes improve performance, optimize throwing mechanics, and better understand how their bodies move. This work combines biomechanics, pitch analysis, and high-level player development strategies.
+
+---
+
+## Tools & Tech I’ve Worked With
+
+- **Rapsodo** & **Trackman**: Used for collecting pitch tracking data, including velocity, spin rate, spin axis, and pitch movement  
+- **Driveline Motion Capture**: Applied biomechanics tools to analyze throwing efficiency and joint sequencing  
+- **Baseball Savant** & **FanGraphs**: Researched pro and college-level pitchers to break down performance metrics and trends
+
+---
+
+## What I’ve Done
+
+- Analyzed countless pitchers from high school to pro using data from Rapsodo, Trackman, and Savant  
+- Studied pitch movement profiles, vertical approach angles, release points, and arm slot data  
+- Helped athletes understand how their body moves and how to better coordinate their mechanics for max velocity and efficiency  
+- Designed personalized throwing plans and training cues based on motion capture and pitch feedback  
+- Educated athletes on using their data to track progress and stay healthy
+
+---
+
+## Why It Matters
+
+Understanding the intersection of analytics and physical performance is what sets modern athletes apart. I use data not just for analysis — but for **action**: helping pitchers improve how they move, throw, recover, and perform.
+
+> My background bridges the gap between numbers and movement — blending data-driven insights with real athletic outcomes.

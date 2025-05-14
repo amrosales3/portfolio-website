@@ -1,0 +1,26 @@
+---
+title: "Welcome"
+format: html
+---
+
+<img src="images/profile.jpg" style="border-radius: 50%; width: 180px; display: block; margin: 0 auto;" alt="Aaron Rosales headshot"/>
+
+# Hi, I'm Aaron Rosales
+
+I'm a Business student at Cal Poly Pomona with a strong interest in digital marketing, sports development, and content strategy. I have experience working across athletic training, social media branding, and sports-focused business projects. My goal is to merge performance development with marketing innovation in the sports and entertainment industries.
+
+---
+
+## Highlights
+
+- 💻 **Digital Marketing:** Created content and campaigns for athletic brands across TikTok, Instagram, and YouTube  
+- 📈 **Platform Growth:** Helped build a sports-focused social media presence reaching 100,000+ followers  
+- ⚾ **Athlete Development:** Coached youth athletes and applied biomechanics for advanced athletic development
+- 🤝 **Brand Partnerships:** Worked with brands like Perfect Game and Baseball Factory on social media initiatives
+
+---
+
+## Contact
+
+- 📧 [amrosales3@cpp.edu](mailto:amrosales3@cpp.edu)  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/aaron-rosales-79276a198/)

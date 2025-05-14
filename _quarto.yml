@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: "AARON ROSALES"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Sports Analytics"
+        href: sports-analytics.qmd
+      - text: "Digital Marketing"
+        href: digital-marketing.qmd
+      - text: "Résumé"
+        href: resume.qmd
+
+format:
+  html:
+    theme: 
+      - flatly
+      - theme.scss
+    toc: true
